@@ -1,7 +1,7 @@
 public class Main {
 
 
-    public static void main (String [] args){
+    public static void main(String[] args) {
 
         Person mom = new PersonBuilder()
                 .setName("Анна")
@@ -27,8 +27,6 @@ public class Main {
         } catch (IllegalArgumentException e) {
             e.printStackTrace();
         }
-
-
 
 
     }

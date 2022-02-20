@@ -2,8 +2,8 @@ public class PersonBuilder {
 
     private Person newPerson;
 
-    public PersonBuilder (){
-        newPerson=new Person();
+    public PersonBuilder() {
+        newPerson = new Person();
     }
 
     public PersonBuilder setName(String name) {
@@ -24,12 +24,12 @@ public class PersonBuilder {
     }
 
     public PersonBuilder setAddress(String address) {
-        newPerson.address=address;
+        newPerson.address = address;
         return this;
     }
 
     public Person build() {
-        if (newPerson.getName()==null || newPerson.getSurname()==null){
+        if (newPerson.getName() == null || newPerson.getSurname() == null) {
             throw new IllegalStateException("не указано имя и/или фамилия");
         }
         return newPerson;

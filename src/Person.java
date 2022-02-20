@@ -47,6 +47,7 @@ public class Person {
     public String getSurname() {
         return this.surname;
     }
+
     public int getAge() {
         return this.age;
     }
@@ -58,15 +59,15 @@ public class Person {
         return this.address;
     }
 
-    public void setSurname(String surname){
-        if (this.surname==null) {
-            this.surname=surname;
+    public void setSurname(String surname) {
+        if (this.surname == null) {
+            this.surname = surname;
         }
     }
 
-    public void setName(String name){
-        if (this.name==null) {
-            this.name=name;
+    public void setName(String name) {
+        if (this.name == null) {
+            this.name = name;
         }
     }
 
